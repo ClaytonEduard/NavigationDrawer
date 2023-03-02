@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servicos.ServicosFragment">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius magna non finibus hendrerit. Vivamus sollicitudin placerat tortor, id tempor mi imperdiet in. Donec eget nibh elit. Phasellus posuere sapien ac felis venenatis, non congue odio bibendum. Sed in quam quis quam molestie commodo. Proin malesuada placerat nunc at auctor. Aliquam sollicitudin ullamcorper magna, et pellentesque ex hendrerit non.  Donec sed pharetra tellus. Ut convallis felis erat, sit amet aliquet eros tempor ullamcorper. Etiam lobortis quis massa id venenatis. Mauris efficitur eget neque non ornare. Maecenas velit ante, aliquam sit amet lectus sed, tempor pellentesque velit. Vestibulum vitae euismod nunc. Praesent mollis lacus a lectus vehicula, a ullamcorper nisi varius. Donec fringilla odio at ipsum accumsan interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Indicadores de desempenho"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Sistema de gestão de qualidade"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius magna non finibus hendrerit. Vivamus sollicitudin placerat tortor, id tempor mi imperdiet in. Donec eget nibh elit. Phasellus posuere sapien ac felis venenatis, non congue odio bibendum. Sed in quam quis quam molestie commodo. Proin malesuada placerat nunc at auctor. Aliquam sollicitudin ullamcorper magna, et pellentesque ex hendrerit non.  Donec sed pharetra tellus. Ut convallis felis erat, sit amet aliquet eros tempor ullamcorper. Etiam lobortis quis massa id venenatis. Mauris efficitur eget neque non ornare. Maecenas velit ante, aliquam sit amet lectus sed, tempor pellentesque velit. Vestibulum vitae euismod nunc. Praesent mollis lacus a lectus vehicula, a ullamcorper nisi varius. Donec fringilla odio at ipsum accumsan interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
